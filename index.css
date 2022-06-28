@@ -1,0 +1,50 @@
+.box {
+    position: relative;
+    width: 190px;
+    height: 260px;
+    background-color: #e3e4e5;
+
+}
+.title {
+    position: absolute;
+    top: 5px;
+    left: 45px;
+    font-size: x-large;
+    color: #000;
+}
+.shangpin img{
+    position: absolute;
+    top: 60px;
+    left: 45px;
+    width: 100px;
+    height: 100px;
+}
+.end {
+    position: absolute;
+    top: 170px;
+    left: 35px;
+    font-size: 15px;
+}
+.hour,
+.minute,
+.second {
+    position: relative;
+    top: 200px;
+    left: 10px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #2f3430;
+    color: white;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+.line {
+    position: absolute;
+    top: 219px;
+    width: 190px;
+    height: 3px;
+    background-color: #e3e4e5;
+}
